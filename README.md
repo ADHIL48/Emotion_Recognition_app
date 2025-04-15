@@ -198,7 +198,7 @@ Feel Emotion☺️ is a compassionate AI companion designed to provide emotional
    ```
 4. Run the application:
    ```bash
-   streamlit run chtbot.py
+   streamlit run chatbot.py
    ```
 
 
