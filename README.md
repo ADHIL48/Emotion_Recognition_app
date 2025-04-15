@@ -28,8 +28,6 @@
 - [📂 Project Structure](#-project-structure)
 - [🧠 Models Architecture](#-models-architecture)
 - [📊 Performance Metrics](#-performance-metrics)
-- [📡 API Documentation](#-api-documentation)
-- [📸 Screenshots](#-screenshots)
 - [🚀 Future Enhancements](#-future-enhancements)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
@@ -154,6 +152,59 @@ streamlit run app.py
 - Final confidence-weighted emotion result + report
 
 ---
+## AI Emotional Support Chat - Feel Emotion☺️
+
+### Overview
+Feel Emotion☺️ is a compassionate AI companion designed to provide emotional support through active listening and empathetic responses. Built with Streamlit and powered by the Ollama language model (deepseek-r1:1.5b), this application offers a safe space for users to share their feelings and receive understanding, validation, and gentle guidance.
+
+### Key Features
+
+- **Empathetic AI Companion**: Named "Mohammed", the AI responds with warmth and compassion
+- **Conversation Memory**: Chat history persists across sessions (saved in `chat_history.json`)
+- **Emotion-Focused Responses**: 
+  - Validates feelings before offering suggestions
+  - Uses gentle, caring tone with appropriate emojis (🌙✨💭)
+  - Keeps responses concise but meaningful (1-3 sentences)
+- **Privacy-Focused**: All data stays locally on the user's machine
+- **Clean Interface**: Simple, intuitive chat interface with user/assistant avatars
+
+### Technical Details
+
+- **Framework**: Streamlit for the web interface
+- **AI Backend**: Ollama with the `deepseek-r1:1.5b` model
+- **Conversation Memory**: 
+  - Last 6 messages kept for context
+  - Full history saved to JSON file
+- **Response Processing**:
+  - Automatic removal of `<think>` tags
+  - Streaming responses for natural interaction
+  - Temperature setting (0.8) for slightly creative but focused responses
+
+### Usage
+
+1. Launch the application
+2. Type your thoughts or feelings in the chat input
+3. Receive compassionate responses from the AI
+4. Use the sidebar to clear chat history when needed
+
+### Installation
+
+1. Clone this repository
+2. Install requirements:
+   ```bash
+   pip install streamlit ollama langchain_core
+   ```
+3. Ensure Ollama is running with the deepseek-r1:1.5b model:
+   ```bash
+   ollama pull deepseek-r1:1.5b
+   ```
+4. Run the application:
+   ```bash
+   streamlit run chtbot.py
+   ```
+
+
+---
 
 ## 📂 Project Structure
 
@@ -190,6 +241,14 @@ Emotion_Recognition_app/
 - Dataset: FER-2013
 - Accuracy: 72%
 - Outputs: Emotion + Gender
+
+### AI Emotional Assistant Chatbot
+- **Local LLM**: Ollama (`deepseek-r1:1.5b`) for private, offline responses.  
+- **Empathy Prompt**: Hardcoded rules for kind, concise (1-3 sentences) replies with emojis.  
+- **6-Message Memory**: Keeps recent chat context.  
+- **Saves History**: Stores chats locally in `chat_history.json`.  
+- **Optimized Settings**: Temp 0.8, top-k 40 for balanced replies.  
+- **Clean Output**: Removes AI thinking tags, streams responses.
 
 ---
 
@@ -240,14 +299,6 @@ pytest tests/
 black .
 ```
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
----
-
-## 📜 License
-
-**MIT License**  
-See full text in [LICENSE](LICENSE)
 
 ---
 
@@ -255,11 +306,10 @@ See full text in [LICENSE](LICENSE)
 
 **Adhil M**  
 📧 [mohammedadhil0408@gmail.com](mailto:mohammedadhil0408@gmail.com)  
-🌐 [GitHub](https://github.com/ADHIL48) | [LinkedIn](https://linkedin.com/in/adhil-m) | 📱 WhatsApp: +91 6382191903
+🌐 [GitHub](https://github.com/ADHIL48) | [LinkedIn](https://linkedin.com/in/adhil-m) | 
 
 🔗 **Project Links**:  
 - [🔧 GitHub Repository](https://github.com/ADHIL48/Emotion_Recognition_app)  
-- [📺 Live Demo (Streamlit)](https://share.streamlit.io/adhil48/emotion_recognition_app/main/app.py)
 
 ---
 
