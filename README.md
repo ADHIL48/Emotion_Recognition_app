@@ -12,7 +12,6 @@
   <img src="https://github.com/ADHIL48/Emotion_Recognition_app/raw/main/Emotion_Recognition%20_App_Using_Streamlit/images/Emoji/gif/disgust.gif" alt="Disgust" width="90"/>
   <img src="https://github.com/ADHIL48/Emotion_Recognition_app/raw/main/Emotion_Recognition%20_App_Using_Streamlit/images/Emoji/Disgust.gif" alt="Fear" width="90"/>
   <img src="https://github.com/ADHIL48/Emotion_Recognition_app/raw/main/Emotion_Recognition%20_App_Using_Streamlit/images/Emoji/gif/surprise.gif" alt="Pleasant Surprise" width="90"/>
-  <img src="https://github.com/ADHIL48/Emotion_Recognition_app/raw/main/Emotion_Recognition%20_App_Using_Streamlit/images/Emoji/gif/love.gif" alt="Love" width="90"/>
   <img src="https://github.com/ADHIL48/Emotion_Recognition_app/raw/main/Emotion_Recognition%20_App_Using_Streamlit/images/Emoji/gif/humor.gif" alt="Humor" width="90"/>
 </div>
 
