@@ -279,7 +279,9 @@ Emotion_Recognition_app/
 - 🌍 Multi-language support
 
 ---
-
+## Demo Video
+▶️ [Click here to preview the demo video🎥](https://drive.google.com/file/d/1dUeRMkLEjouNhzfnfhu7H0gpfJxbNGTD/preview)
+---
 ## 📞 Contact
 
 **Adhil M**  
