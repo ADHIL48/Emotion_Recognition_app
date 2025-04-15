@@ -24,12 +24,11 @@
 - [🛠 Technologies Used](#-technologies-used)
 - [📥 Installation Guide](#-installation-guide)
 - [🚀 Usage Instructions](#-usage-instructions)
+- [🤖 AI Emotional Support Chat - Feel Emotion☺️](#ai-emotional-support-chat---feel-emotion️)
 - [📂 Project Structure](#-project-structure)
 - [🧠 Models Architecture](#-models-architecture)
 - [📊 Performance Metrics](#-performance-metrics)
 - [🚀 Future Enhancements](#-future-enhancements)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 - [📞 Contact](#-contact)
 
 ---
@@ -278,26 +277,6 @@ Emotion_Recognition_app/
 - 🎥 3D CNN for video-based emotion
 - 🌐 ONNX edge deployment
 - 🌍 Multi-language support
-
----
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-```bash
-# Set up environment
-git clone https://github.com/ADHIL48/Emotion_Recognition_app.git
-cd Emotion_Recognition_app
-pip install -r requirements-dev.txt
-
-# Run tests
-pytest tests/
-
-# Format code
-black .
-```
-
 
 ---
 
